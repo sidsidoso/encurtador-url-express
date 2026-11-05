@@ -1,0 +1,28 @@
+{
+  "name": "encurtador-url-express",
+  "version": "1.0.0",
+  "description": "Encurtador de URLs com Express 5 e SQLite: códigos base62, códigos personalizados, redirecionamento 302 e estatísticas de acesso.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "encurtador-de-url",
+    "url-shortener",
+    "express",
+    "sqlite",
+    "base62"
+  ],
+  "author": "sidsidoso",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  }
+}
